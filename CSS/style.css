@@ -1,0 +1,159 @@
+/* css for model sign-in */
+.model-body{
+            height: auto;
+            width: auto;
+        }
+        .popupheader{
+            background: linear-gradient(#ff5f6d, #ffc371);
+        }
+        .fade{
+            opacity: 1;
+            -webkit-tranaction: opacity 1s liear;
+            transaction: opacity 1s linear;
+        }
+
+/* css for product card */
+.product-card{
+    border: none;
+    text-align: center;
+    position: relative;
+}
+
+.product-card .card-title{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+/* css for footer */
+p{
+    color: #999;
+    line-height: 25px;
+}
+
+h2,h3{
+    color: #000;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.footer-top{
+    background: #111;
+    padding: 50px 0;
+}
+
+.segment-one h3{
+    font-family: fantasy;
+    color: #fff;
+    letter-spacing: 3px;
+
+}
+
+.segment-two h2{
+    color: #fff;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.segment-two h2:before{
+    content: '|';
+    color: coral;
+    padding-right: 10px;
+}
+
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.segment-three h2:before{
+    content: '|';
+    color: coral;
+    padding-right: 10px;
+}
+
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.segment-four h2{
+    color: #fff;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.segment-four h2:before{
+     content: '|';
+     color: coral;
+     padding-right: 10px;
+}
+
+.segment-four form input[type=submit]{
+    background: coral;
+    border: none;
+    padding: 3px 15px;
+    margin-left: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+/*Responsive CSS*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+    .footer-top{
+        
+    }
+}
+
+            margin-top: 8%;
+            margin-left: 8%;
+        }
+        .card:hover{
+            -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+            -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+            box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+        }
+
